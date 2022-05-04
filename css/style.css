@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  background-color: green;
+}
+
+h1{
+  color: WHITE;
+  font-size: 32px;
+}
+
+.logo{
+  margin-bottom: 2rem;
+}
+
+.logo-zelda {
+  width: 200px;
+}
+
+.logo-link{
+  width: 120px;
+}
+
+.player {
+  width: 28px;
+  height: 32px;
+  margin: 24px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.player--right {
+  background-position-y: -64px;
+}
+
+.player--up {
+  background-position-y: -96px;
+}
+
+.player--left {
+  background-position-y: -32px;
+}
+
+.player--down {
+  background-position-y: 0px;
+}
+
+.targetCell {
+  background-color: red !important;
+}
+
+.board {
+  background-color: white;
+  margin: 1rem;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  border: 0.1px solid white;
+  background-color: lightgreen;
+  
+}
